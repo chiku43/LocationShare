@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.locshareapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.locshareapp.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.Welcome"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.Signup"
+            android:label="@string/title_activity_signup" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.SelectAnOption"
+            android:label="@string/title_activity_select_an_option" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.Groceries"
+            android:label="@string/title_activity_groceries" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.Medicines"
+            android:label="@string/title_activity_medicines" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.ShareLocation"
+            android:label="@string/title_activity_share_location" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.Addgrocerycontacts"
+            android:label="@string/title_activity_addgrocerycontacts" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.Sendgrocerycontacts"
+            android:label="@string/title_activity_sendgrocerycontacts" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.Addmcontacts"
+            android:label="@string/title_activity_addmcontacts" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.Sendmcontacts"
+            android:label="@string/title_activity_sendmcontacts" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.Addscontacts"
+            android:label="@string/title_activity_addscontacts" >
+        </activity>
+        <activity
+            android:name="com.example.locshareapp.Sendscontacts"
+            android:label="@string/title_activity_sendscontacts" >
+        </activity>
+    </application>
+
+</manifest>
